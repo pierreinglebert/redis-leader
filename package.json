@@ -1,0 +1,22 @@
+{
+  "name": "redis-leader",
+  "version": "0.1.0",
+  "description": "Leader election using redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "redis",
+    "leader"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "uuid": "^2.0.1"
+  }
+}
