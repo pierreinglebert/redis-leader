@@ -1,5 +1,5 @@
 Redis leader
-##########
+===========
 
 Leader election backed by Redis
 
@@ -47,7 +47,7 @@ var Leader = require('redis-leader');
 
 ### Events
 
-`elected when your candidate become leader
+`elected` when your candidate become leader
 
 `revoked` when your leader got revoked from his leadership
 
